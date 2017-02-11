@@ -1,0 +1,29 @@
+.little-container {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-bottom: 20rpx;
+}
+
+.little-img {
+  width: 700rpx;
+  border-radius: 30rpx;
+  margin: 0 auto;
+}
+
+.little-title {
+  text-align: center;
+  width: 700rpx;
+  font-size: 14px;
+  line-height: 80rpx;
+  height: 80rpx;
+  overflow: hidden;
+  color: #666;
+}
+
+.hr {
+  height: 2rpx;
+  width: 100%;
+  background-color: #5ec3b1;
+  margin-bottom: 20rpx;
+}

@@ -1,0 +1,6 @@
+<template name="postItem">
+   <view class="little-container" data-src="{{item.img}}" catchtap="viewImg">
+        <text class="little-title">{{item.title}}</text> 
+        <image mode="widthFix" class="little-img"  src="{{item.img}}"></image>       
+    </view>
+</template>

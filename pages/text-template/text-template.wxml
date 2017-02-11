@@ -1,0 +1,6 @@
+<template name="textTemplate">
+   <view class="little-container" >
+        <text class="little-title">{{item.title}}</text> 
+        <text  class="little-text">{{item.text}}</text>       
+    </view>
+</template>

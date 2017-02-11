@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;  
+    width: 700rpx;
+    margin: 0 auto ;  
+    height: 1600rpx;
+}
+.img{
+    margin: 0 auto;
+    max-width: 696rpx;
+    max-height: 1000rpx;
+}
+.title{
+    margin: 20rpx auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50rpx;
+    color: #5ec3b1;
+}
+.hr{
+    width:700rpx;
+    height: 2rpx;
+    background-color: #5ec3b1;
+    margin-bottom: 30rpx;
+}
+
+swiper{
+   height: 1600rpx; 
+}

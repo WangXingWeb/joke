@@ -1,0 +1,22 @@
+<import src="../post-template/post-template.wxml" />
+<import src="../text-template/text-template.wxml" />
+<view bindtouchstart="mytouchstart" bindtouchend="mytouchend">
+  <view wx:if="{{tipsShow}}" class="tips tips1">已经是最新一个了。！</view>
+  <view wx:if="{{tipsShowMore}}" class="tips tips2">前面没有那么多内容了，已为您跳转到最新的一个。</view>
+  <view class="container">
+    <view class="middleContainer" style="left:{{leftdata}}rpx;">
+      <block wx:if="{{!which}}" wx:for="{{postlist}}" wx:for-item="item">
+        <template is="postItem" data="{{item}}" />
+      </block>
+      <block wx:if="{{which}}" wx:for="{{postlist}}" wx:for-item="item">
+        <template is="textTemplate" data="{{item}}" />
+      </block>
+    </view>
+  </view>
+  <view class="button-group">
+    <button catchtap="prevItem" data-number="1">上一页</button>
+    <button catchtap="prevItem" data-number="10">退十页</button>
+    <button catchtap="prevItem" data-number="-10">进十页</button>
+    <button catchtap="prevItem" data-number="-1">下一页</button>
+  </view>
+</view>

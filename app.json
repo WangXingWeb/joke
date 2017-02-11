@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/list/list",
+    "pages/post/post"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#5ec3b1",
+    "backgroundColor": "#5ec3b1"
+  },
+  "list": [
+    {
+      "pagePath": "pages/post/post1/post1",
+      "text": "文本笑话",
+      "iconPath": "images/tab/yuedu.png",
+      "selectedIconPath": "images/tab/yuedu_hl.png"
+    },
+    {
+      "pagePath": "pages/post/post2/post2",
+      "text": "电影",
+      "iconPath": "images/tab/dianying.png",
+      "selectedIconPath": "images/tab/yuedu_hl.png"
+    },
+    {
+      "pagePath": "pages/post/post3/post3",
+      "text": "电影",
+      "iconPath": "images/tab/dianying.png",
+      "selectedIconPath": "images/tab/yuedu_hl.png"
+    }
+  ]
+}

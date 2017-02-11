@@ -1,0 +1,10 @@
+<swiper catchtap="onSwiperTap" vertical="{{false}}" autoplay="{{false}}" interval="5000" duration="500">
+  <block wx:for="{{content}}" wx:for-item="item">
+    <swiper-item>
+      <view class="container">
+        <text class="title">{{item.title}}</text>
+        <image class="img" mode="widthFix" src="{{item.img}}" catchtap="viewImg"></image>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>

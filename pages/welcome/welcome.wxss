@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;  
+}
+
+.tabbar{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto ;
+}
+.image-logo{
+    margin: 0 auto;
+}
+.welcome{
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 30rpx; 
+    font-family: MicroSoft Yahei;  
+    color:#666;    
+}
+.tabbar-item{
+    font-family: MicroSoft Yahei;
+    line-height: 50px;
+    width:320rpx; 
+    border-radius: 20rpx;
+    border: #666 1.5px solid;
+    font-size: 16px;
+    margin-bottom: 20rpx;
+    text-align: center;
+    color:#666;
+    letter-spacing: 1px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    margin: 100rpx auto 100rpx;
+}
+.image-logo{
+    width: 250rpx;
+    height: 250rpx;
+    border-radius: 125rpx; 
+}
+
+page{
+    background-color: #5ec3b1;
+}

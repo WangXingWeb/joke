@@ -1,0 +1,15 @@
+
+.little-text {
+  width: 700rpx;
+  margin: 0 auto;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #666;
+}
+.hr {
+  height: 2rpx;
+  width: 100%;
+  background-color: #5ec3b1;
+  margin-bottom: 20rpx;
+}
